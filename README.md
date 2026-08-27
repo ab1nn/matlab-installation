@@ -15,7 +15,7 @@ Installing MATLAB on Arch Linux has been a frustrating journey. After years of s
 | R2026a (without fix) | Installer segfaults immediately on Intel CPUs | ❌ Still broken |
 | R2026a + community fix | **Working perfectly** ✅ | ✅ Resolved |
 
-## The Solution
+## The Solution (Will include proper steps when I have time)
 
 The key is to follow the `LD_PRELOAD` step from [this GitHub repository](https://github.com/stefanoconiglio/omarchy-customizations/tree/master/matlabR2026a-archlinux-fix). Once applied, MATLAB launches without issues on both systems.
 
@@ -32,12 +32,3 @@ The key is to follow the `LD_PRELOAD` step from [this GitHub repository](https:/
 ![MATLAB Installation on Arch Linux](https://github.com/user-attachments/assets/ae425afd-6243-4091-828a-d785ce01cfa2)
 
 ---
-
-### Next Steps
-
-If you’d like to:
-- Add installation commands step-by-step
-- Include troubleshooting tips for specific environments
-- Highlight any additional fixes or workarounds
-
-Just let me know! I can help refine this further.
